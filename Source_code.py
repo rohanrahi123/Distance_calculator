@@ -22,7 +22,7 @@ while True:
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
     # yellow color range
-    lower_yellow = np.array([20, 100, 100])
+    lower_yellow = np.array([20, 100, 100])          #Change it for detecting colours
     upper_yellow = np.array([30, 255, 255])
 
     # mask yellow objects
